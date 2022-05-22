@@ -1,11 +1,9 @@
 public class Persona {
-   String nombre;
-   int ci;
-   int deuda;
-  
-  public persona(String nombre, int ci, int deuda){
-    this.nombre=nombre;
-    this.ci=ci;
-    this.deuda=deuda;
-  }
+	String nombre;
+	int deuda;
+
+	public Persona(String nombre) {
+		this.nombre = nombre;
+		this.deuda = 0;
+	}
 }
