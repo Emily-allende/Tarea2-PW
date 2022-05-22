@@ -1,16 +1,13 @@
-import persona
-
 public class Auto {
-  persona per = new persona();
-  per dueño;
-  static String marca;
-  int matricula;
-  int tiempoT;
+	Persona dueño;
+	static String marca;
+	String matricula;
+	int tiempoT;
 
-  public auto(per dueño, String marca, int matricula){
-      this.dueño = dueño;
-      this.marca = marca;
-      this.matricula = matricula
-      tiempoT = 0;
-  }
+	public Auto(String marca, String matricula, Persona dueño) {
+		this.dueño = dueño;
+		Auto.marca = marca;
+		this.matricula = matricula;
+		tiempoT = 0;
+	}
 }
